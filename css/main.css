@@ -1,0 +1,321 @@
+
+/*Font weight*/
+
+.font-light{font-weight: lighter;}
+
+/*Tamaño de las fuentes*/
+
+.font-size-xl{font-size: 6vh;}
+
+.font-size-lg{font-size: 4vh;}
+
+.font-size-sm{font-size: 3vh;}
+
+.font-size-xm{font-size: 2vh;}
+
+.font-size-xs{font-size: 1.8vh;}
+
+/*Top margin*/
+
+.topmargin-lg{margin-top: 130px;}
+
+.topmargin-sm{margin-top: 50px;}
+
+.topmargin-xs{margin-top: 20px;}
+
+
+/*margin-bottom*/
+
+.margin-bottom{margin-bottom: 50px;}
+
+
+/*margin */
+
+.margin{margin: 50px;}
+
+
+/*Padding*/
+
+.padding-general{padding: 25px;}
+.padding-general-xm{padding: 15px;}
+.toppadding-lg{padding-top: 130px;}
+
+.padding-cards{ padding: 6%;}
+
+.padding-boton{padding: 10px 50px;}
+
+
+/*Posición*/
+
+.content-center{text-align: center;}
+.content-left{text-align: left;}
+
+
+/*Border Radius*/
+
+.border-radius{border-radius: 20px;}
+
+
+/*--------------------------------------------------*/
+
+
+
+body {
+
+    font-family: 'Titillium Web', sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    min-height: 100px;
+  }
+  
+  .nav-link {
+    color: rgb(0, 0, 0);
+  }
+  
+  .nav-link:hover {
+    color: #ff0044;
+  }
+  
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  .navbar-brand:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .menu {
+    color: rgb(0, 0, 0);
+  }
+  .menu:hover {
+    color: #ff0044;
+  }
+  
+  .logo-brand {
+    min-width: 100px;
+    max-width: 500px;
+  
+  }
+  
+  .navbar-toggler {
+    font-size: 50px;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+/*Container*/
+  
+
+
+
+#hero2 {
+  background-image: url("../img/hero-empanadas.jpg");
+  background-size: cover;
+  padding-top: 30px;
+  min-height: 200px;
+  background-position: center center;
+  filter: blur(2px);
+
+ 
+
+  color: white;
+}
+
+
+#portafolio h2
+{
+    font-size: 48px; 
+}
+
+.segundo-titulo
+{
+    margin-bottom: 30px;
+}
+
+
+
+.portafolio-container
+{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0px;
+    border-radius: 2px;
+}
+
+.portafolio-details
+{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+    
+}
+
+.portafolio-details h2 
+{
+    margin-bottom: 0px ;
+}
+
+
+.portafolio-details a h2, .portafolio-details a p
+{
+    color:white;
+}
+.portafolio-details a:hover
+{
+    text-decoration: none;
+}
+
+.portafolio-container img
+{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portafolio-container img:hover 
+{
+    -moz-transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    transform:scale(1.2);
+    filter: blur(3px);
+}
+
+.display-inline
+{
+  display: inline;
+}
+
+
+
+
+
+
+
+.footer-shadow
+{
+  background-color: red;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.lista-messages
+{
+    padding: 0;
+     display:block;
+     padding-left:0;
+     padding-right:10px;
+     list-style: none;
+}
+
+.lista li
+{
+     padding: 0;
+     display:inline;
+     padding-left:0;
+     padding-right:10px;
+}
+
+.lista a 
+{
+    color: #000000;
+}
+
+.lista a:hover
+{
+    text-decoration: none;
+}
+
+
+.lista-redes li
+{
+    
+     display:inline;
+     padding-left:0;
+     padding-right:10px;
+     text-align: left;
+}
+
+
+
+
+.footer
+{
+  background-color: #ffffff;
+  border-top: 1px solid #20202015;
+}
+
+
+
+
+@media (max-width: 400.98px) {
+
+  .lista-messages
+  {
+      padding: 0;
+       display:inline;
+       
+       list-style: none;
+
+  }
+
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+    width: 70%;
+  }
+
+  .margin-slider
+  {
+    margin-top: 100px;
+  }
+  
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+  .lista-messages
+  {
+       padding: 0;
+       display:inline;
+       list-style: none;
+
+  }
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+    width: 70%;
+  }
+  .margin-slider
+  {
+    margin-top: 100px;
+  }
+  
+  
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+}
